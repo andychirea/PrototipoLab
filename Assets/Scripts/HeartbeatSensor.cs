@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class HeartbeatSender : MonoBehaviour
+public class HeartbeatSensor : MonoBehaviour
 {
     [SerializeField] private UnityEvent<float> _onValueChanged;
 
